@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
+import { Link } from "react-router-dom";
 
 interface HeaderProps {
   isMenuOpen: boolean;
@@ -24,10 +25,10 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, toggleMenu }) => {
           </div>
           
           <nav className="hidden md:flex space-x-8">
-            <a href="#home" className="text-gray-700 hover:text-blue-600 transition-colors">Home</a>
-            <a href="#about" className="text-gray-700 hover:text-blue-600 transition-colors">About</a>
-            <a href="#services" className="text-gray-700 hover:text-blue-600 transition-colors">Services</a>
-            <a href="#clients" className="text-gray-700 hover:text-blue-600 transition-colors">Clients</a>
+            <Link to="/" className="text-gray-700 hover:text-blue-600 transition-colors">Home</Link>
+            <Link to="/about" className="text-gray-700 hover:text-blue-600 transition-colors">About</Link>
+            <Link to="/services" className="text-gray-700 hover:text-blue-600 transition-colors">Services</Link>
+            <Link to="/clients" className="text-gray-700 hover:text-blue-600 transition-colors">Clients</Link>
             <a href="#contact" className="text-gray-700 hover:text-blue-600 transition-colors">Contact</a>
           </nav>
           
@@ -45,10 +46,10 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, toggleMenu }) => {
       {isMenuOpen && (
         <div className="md:hidden bg-white border-t">
           <div className="px-2 pt-2 pb-3 space-y-1">
-            <a href="#home" className="block px-3 py-2 text-gray-700 hover:text-blue-600">Home</a>
-            <a href="#about" className="block px-3 py-2 text-gray-700 hover:text-blue-600">About</a>
-            <a href="#services" className="block px-3 py-2 text-gray-700 hover:text-blue-600">Services</a>
-            <a href="#clients" className="block px-3 py-2 text-gray-700 hover:text-blue-600">Clients</a>
+            <Link to="/" className="block px-3 py-2 text-gray-700 hover:text-blue-600">Home</Link>
+            <Link to="/about" className="block px-3 py-2 text-gray-700 hover:text-blue-600">About</Link>
+            <Link to="/services" className="block px-3 py-2 text-gray-700 hover:text-blue-600">Services</Link>
+            <Link to="/clients" className="block px-3 py-2 text-gray-700 hover:text-blue-600">Clients</Link>
             <a href="#contact" className="block px-3 py-2 text-gray-700 hover:text-blue-600">Contact</a>
           </div>
         </div>

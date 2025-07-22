@@ -104,8 +104,8 @@ const ContactSection: React.FC = () => {
                   <div>
                     <h4 className="font-semibold text-gray-900">Address</h4>
                     <p className="text-gray-600">
-                      Polo Old GRA Bukar Sani Close<br />
-                      Maiduguri, Borno State, Nigeria
+                      1st Location: Polo Old GRA Bukar Sani Close,<br />Maiduguri, Borno State, Nigeria<br />
+                      2nd Location: NO3 Egbedi close, Off Samuel Ladoke Akintola Boulevard,<br />Garki 2, Abuja, FCT
                     </p>
                   </div>
                 </div>
@@ -122,7 +122,7 @@ const ContactSection: React.FC = () => {
                   <Mail className="h-6 w-6 text-blue-500 mr-4" />
                   <div>
                     <h4 className="font-semibold text-gray-900">Email</h4>
-                    <p className="text-gray-600">hello@multicyclicsolutions.com</p>
+                    <p className="text-gray-600">Info@multicyclictechsolutions.com.ng</p>
                   </div>
                 </div>
               </div>

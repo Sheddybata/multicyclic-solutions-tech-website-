@@ -10,6 +10,9 @@ import NotFound from "./pages/NotFound";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import About from "./pages/About";
+import Services from "./pages/Services";
+import Clients from "./pages/Clients";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +29,9 @@ const App = () => {
           <BrowserRouter>
             <Routes>
               <Route path="/" element={<Index />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/services" element={<Services />} />
+              <Route path="/clients" element={<Clients />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </BrowserRouter>

@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
             <div className="space-y-2">
               <div className="flex items-center text-gray-300">
                 <MapPin className="h-4 w-4 mr-2" />
-                <span className="text-sm">Polo Old GRA Bukar Sani Close, Maiduguri</span>
+                <span className="text-sm">1st Location: Polo Old GRA Bukar Sani Close, Maiduguri, Borno State<br/>2nd Location: NO3 Egbedi close, Off Samuel Ladoke Akintola Boulevard, Garki 2, Abuja, FCT</span>
               </div>
               <div className="flex items-center text-gray-300">
                 <Phone className="h-4 w-4 mr-2" />
@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
               </div>
               <div className="flex items-center text-gray-300">
                 <Mail className="h-4 w-4 mr-2" />
-                <span className="text-sm">hello@multicyclicsolutions.com</span>
+                <span className="text-sm">Info@multicyclictechsolutions.com.ng</span>
               </div>
             </div>
           </div>
